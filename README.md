@@ -5,17 +5,15 @@ This project involves a comprehensive analysis of the financial data provided by
 
 ### Introduction:
 
-The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. 
-The dataset consists of 8 tables:
- 1. Account
- 2. Card
- 3. Client
- 4. Disposition
- 5. District
- 6. Loan
- 7. Order
- 8. Transaction
-Each of these tables contains specific information related to the bank's operations.
+The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. The dataset consists of the following tables:
+1. **Account:** This table contains information about the accounts held by the bank's clients. It includes the account ID, the date the account was opened, the associated client ID, and the account type.
+2. **Card:** This table contains information about the card issued by the bank. It includes the card ID, the date the card was issued, and the card type.
+3. **Client:** This table contains information about the bank's clients. It includes the client ID, the client's birthdate, gender, and the district where the client lives.
+4. **Disposition:** This table contains information about the relationship between clients and their accounts. It includes the disposition ID, the client ID associated with the disposition, and the type of disposition (e.g., owner, authorized person, etc.).
+5. **District:** This table contains information about the various districts in Czechoslovakia. It includes the district ID, the name of the district, and various demographic and economic indicators for the district.
+6. **Loan:** This table contains information about the loans issued by the bank. It includes the loan ID, the date the loan was issued, the account ID associated with the loan, the amount of the loan.
+7. **Order:** This table contains information about the orders issued by the bank's clients. It includes the order ID, the account ID associated with the order, the date the order was issued, and a description of the order.
+8. **Transaction:** This table contains information about the transactions made by the bank's clients. It includes the transaction ID, the account ID associated
 
 ### Ad-hoc Data Analysis:
 
